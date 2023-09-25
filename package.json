@@ -1,0 +1,33 @@
+{
+  "name": "unocss-custom-to-rem",
+  "version": "1.0.2",
+  "description": "unocss-custom-to-rem",
+  "main": "./dist/index.cjs",
+  "scripts": {
+    "build": "unbuild",
+    "stub": "unbuild --stub"
+  },
+  "keywords": [
+    "unocss",
+    "unocss-preset"
+  ],
+  "sideEffects": false,
+  "author": "uustoboy",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@unocss/core": "^0.56.1",
+    "unbuild": "^2.0.0"
+  }
+}

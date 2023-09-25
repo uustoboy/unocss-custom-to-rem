@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "lib": [
+      "esnext"
+    ],
+    "jsx": "preserve",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true
+  },
+  "output": {
+    "exports": "unocss-custom-to-rem"
+  },
+  "exclude": [
+    "**/dist/**",
+    "**/node_modules/**",
+    "**/client/**",
+    "**/playground/**",
+    "**/examples/**",
+    "**/fixtures/**",
+    "**/interactive/**",
+    "**/test/dts/**",
+    "packages/eslint-plugin/**"
+  ]
+}
